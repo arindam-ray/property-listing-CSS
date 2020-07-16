@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(233, 233, 233);
+}
+h1{
+  color: rgb(17, 15, 189);
+}
+
+.fixed_header{
+    width: 1110px;
+    height: 350px;
+    table-layout: fixed;
+    border-collapse: collapse;    
+    border:1;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.fixed_header thead {
+    background: #721307;
+    color:rgb(183, 241, 248); 
+  }
+
+.fixed_header thead tr {
+    display: block;    
+ }
+ 
+.fixed_header tbody tr:nth-child(even){background-color: #f7f5ad}
+
+.fixed_header tbody tr:nth-child(odd){background-color: #ffffff}
+
+.fixed_header tbody tr:hover {background-color:#f0b5e1;}
+
+.fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 350px;  
+}
+
+.fixed_header th, td {
+  padding: 5px;
+  text-align: center;
+}
